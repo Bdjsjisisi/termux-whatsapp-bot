@@ -30,15 +30,15 @@ const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const speed = require('performance-now')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Nazwa🖤\n' // full name
+            + 'FN:𝒂𝒉𝒎𝒆𝒅🖤\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=:+62 852-8267-7885\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=:+967 779-905-541\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '.'
 blocked = []
 
 const config = {
-        botname: 'BocchiBot', // Your Name Bot
+        botname: 'Bot𝒂𝒉𝒎𝒆𝒅', // Your Name Bot
         oname: 'NAZWA' // Your Name
 }
 
@@ -150,8 +150,8 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["12542123926@s.whatsapp.net"] // replace this with your number
-			const nomorOwner = [ownerNumber]
+			const ownerNumber = ["967779905541@s.whatsapp.net"] // replace this with your number
+			const nomorOwner = [967779905541]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
